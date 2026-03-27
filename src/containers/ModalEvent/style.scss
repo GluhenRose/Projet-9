@@ -5,7 +5,8 @@
   overflow: hidden;
   width: 450px;
   position: relative;
-  min-height: 669px;
+  min-height: 669px; //A enlever ? et mettre overflow-y: auto?
+  overflow-y: auto;
   &__imageContainer {
     width: 100%;
     img {
